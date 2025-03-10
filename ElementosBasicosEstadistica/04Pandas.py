@@ -43,5 +43,5 @@ pit.scatter(df["ocean_proximity"][:10], df["median_house_value"][:10])
 pit.xlabel("Proximidad")
 pit.ylabel("Precio")
 
-pit.tittle("Grafico de Disepersion de Proximidad al Oceano vs Precio")
-pit
+pit.title("Grafico de Disepersion de Proximidad al Oceano vs Precio")
+pit.show()
